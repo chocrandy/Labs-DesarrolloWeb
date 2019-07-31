@@ -1,0 +1,28 @@
+h1 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 35px;    
+}
+p 
+{
+    color: black;
+    text-align: left;
+}
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div  
+{
+    text-align: right;
+}
+aside 
+{
+    display: block;
+}
+h4 
+{
+    text-align: right;
+    color: white;
+}

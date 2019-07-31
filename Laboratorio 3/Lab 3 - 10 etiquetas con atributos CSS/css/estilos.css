@@ -1,0 +1,57 @@
+#siguenos
+{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif
+}
+h1 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 35px; 
+}
+div h1
+{
+    background-color: rgb(37, 212, 37);
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+p 
+{
+    color: black;
+    text-align: left;
+}
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200_amp/public/media/image/2018/08/fondos-pantalla-hd_3.jpg?itok=zsXBEuqm");
+    background-size: 100%; 
+}
+div  
+{
+    text-align: center;
+}
+aside 
+{
+    display: block;
+}
+h4 
+{
+    text-align: right;
+    color: white;
+}
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+#tablep
+{
+    background-color: white;
+}
