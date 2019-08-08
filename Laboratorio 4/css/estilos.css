@@ -1,12 +1,37 @@
 h1
-{
-    background-color: black;
+{    
     color: white;
     text-align: center;
     font-family: "Tahoma";
 }
 body
 {
-    background-color: aqua;
+    background-color: black;
     font-family: "Tahoma";
+    color: white;
+}
+/* https://desarrolloweb.com/articulos/barra-navegacion-horizontal-listas-css.html */
+#navegador ul
+{    
+   list-style-type: none;
+   text-align: center;
+}
+#navegador li
+{
+   display: inline;
+   text-align: center;
+   margin: 100px 50px 0px 0px; 
+}
+#navegador li a
+{
+   padding: 2px 7px 2px 7px;
+   color: white;
+   background-color: black;
+   border: 2px solid lime;
+   text-decoration: none;
+}
+#navegador li a:hover
+{
+    background-color: chartreuse;
+    color: black;
 }
