@@ -1,10 +1,11 @@
 //-1- Alerta
-alert("Welcome GUEST to My First Blog");
+//alert("Welcome GUEST to My First Blog");
 
 //-2- Variables
+var num1, num2;
 //string
-var nombre;
-nombre = prompt("Enter your name:");
+var nombre = "Randy";
+//nombre = prompt("Enter your name:");
 //numerico
 var age = 20;
 //array - arreglo 
@@ -25,7 +26,7 @@ var num1 = null;
 var txt = "Hello";
 console.log(txt * 2);
 
-alert("Welcome " + nombre + "! Now youre not a GUEST! XD");
+alert("Welcome " + nombre + "!");
 
 //-3- documento.Write()
 console.log("Your User is " + nombre + age);
@@ -66,19 +67,19 @@ console.log(ordenarmotos);
 
 //Condiciones: sentencia donde el codigo va poder tomar una decision)
 //-7- Ciclo IF 
-var mostrar;
-mostrar = prompt("¿Qué marcas de moto quiere ver, comerciales o exclusivas?");
+var mostrar = "comerciales";
+//mostrar = prompt("¿Qué marcas de moto quiere ver, comerciales o exclusivas?");
 if (mostrar == "comerciales") 
 {
-    alert("Exclusivas: " + motos2);
+    console.log("Exclusivas: " + motos2);
 } 
 else if (mostrar == "exclusivas")
 {
-    alert("Comerciales: " + motos);
+    console.log("Comerciales: " + motos);
 }
 else
 {
-    alert("No has seleccionado ni una. Cargue de nuevo la pagina");
+    console.log("No has seleccionado ni una. Cargue de nuevo la pagina");
 }
 //comparacion con el mimso tipo === 
 var aux = "3";
@@ -102,16 +103,101 @@ console.log(motosaux.length);
 var i = 0;
 while (i != 10) 
 {    
-    console.log(i);
+    document.write(i + "<br>");
     i++;
 }
 
-//-10- Comparacion con el mismo tipo ===
-var aux = "3";
-if (aux == 3) {
-    console.log("True");
-}
-else
+//-10- Ciclo DO WHILE
+var suma;
+var n1, n2;
+do {
+    //num1 = prompt("Ingrese primer numero: ");
+    //num2 = prompt("Ingrese segundo numero: ");    
+    num1 = 7;
+    num2 = 8;
+    suma = sumatoria(num1, num2);
+    document.write("La suma es: " + suma + "<br>");    
+    document.write((numMax(num1, num2)) + "<br> <br>");
+} while (suma == 10);
+
+//-11- Funciones 
+function sumatoria(nu1, nu2)
 {
-    console.log("False");
+    n1 = parseInt(nu1);
+    n2 = parseInt(nu2);    
+    console.log("La suma es: " + (n1+n2));    
+    return n1+n2;
 }
+function numMax(n1, n2)
+{
+    if (n1 > n2)
+        return ("El mayor es: " + n1);
+    else if (n1 < n2)
+        return ("El mayor es: " + n2);
+    else 
+        return "Son iguales";
+}
+
+//-12- Funciones y Formularios
+function inputSuma()
+{    
+    var in1 = document.getElementById("nume1").value;
+    var in2 = document.getElementById("nume2").value;
+    return parseFloat(in1) + parseFloat(in2);
+}
+
+//-13- Scope de JS (ámbito de las variables)
+/* (function(){
+    //Global - podemos acceder a ellas desde cualquier parte del codigo
+    var variableGlobal = "Esta es Global";
+    var miFuncion = function()
+    {
+        var variableLocal = "Esta es Local";
+        alert(variableLocal);
+        variableGlobal = "Esta es Global, modificada";
+        alert(variableGlobal);
+    //Local - variables creadas dentro de una funcion, solo pueden 
+    //ser accedidas desde su propia funcion o una funcion anidada
+        var miFuncionLocal = function()
+        {
+            //var variableLocal = "Esta es variable local anidada";
+            alert(variableLocal);
+        }
+        miFuncionLocal();
+    }
+    miFuncion();
+    alert(variableGlobal);
+    alert(variableLocal);
+    alert(miFuncionLocal); 
+}())
+*/
+
+//-14- Metodos y propiedades para Cadenas de Texto
+var texto = "Lamborguini";
+//length
+var lentxt = texto.length;
+console.log(lentxt);
+//substring
+var lentxt = texto.substring(5);
+console.log(lentxt);
+//substr
+var lentxt = texto.substr(0, 5);
+console.log(lentxt);
+//indexOf
+var lenttxtaux = texto.indexOf("i") + 1;
+var lentxt = texto.indexOf("i", lenttxtaux);
+console.log(lentxt);
+//lastIndexOf
+var lentxt = texto.lastIndexOf("a");
+console.log(lentxt);
+//replace
+var lentxt = texto.replace("Lam", "Ferrari");
+console.log(lentxt);
+//toUpperCase
+var lentxt = texto.toUpperCase();
+console.log(lentxt);
+//toLowerCase
+var lentxt = texto.toLocaleLowerCase();
+console.log(lentxt);
+
+//-15- Introduccion al DOM (Document Object Model)

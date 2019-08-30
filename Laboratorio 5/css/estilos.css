@@ -106,3 +106,7 @@ footer
     border-style: dotted;
     border-color: #ff8000;
 }
+footer form input
+{
+    color: black;
+}
