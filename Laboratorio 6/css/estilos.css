@@ -1,0 +1,32 @@
+*
+{
+    font-family: sans-serif;  
+    color: white;  
+    margin: 0;
+    padding: 0;
+}
+h1
+{    
+    color: white;
+    text-align: center;
+    font-family: "Tahoma";
+    font-size: 50px;
+    text-shadow: 20px 10px 3px #ff8000, 
+                -20px -10px 5px lime;    
+}
+body
+{
+    background-color: black;   
+    text-align: justify; 
+    color: white;
+}
+div p 
+{
+    background-color: #ff8000;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    padding: 2px;
+    margin-right: 10px;
+    display: inline-flex;
+}
