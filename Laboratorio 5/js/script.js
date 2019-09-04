@@ -201,3 +201,27 @@ var lentxt = texto.toLocaleLowerCase();
 console.log(lentxt);
 
 //-15- Introduccion al DOM (Document Object Model)
+//el objetivo es poder acceder a los elementos con JS de forma
+//facil. a cualquier elemento y lueo trabajar con el
+var elementosP = document.getElementsByTagName("p");
+/*
+elementosP | elementosP[0] | elementosP[2].innerHTML
+elementosP[2].innerHTML = "Just Kidding"
+*/
+var elementoId = document.getElementById("pruebaP");
+//lo mismo que el comentario anterior
+
+//-16- Creando Nodos del DOM 
+//crear un elemento h2 y situarlo en algun lugar
+// 1. Crear el elemento
+var elemento = document.createElement("h2");
+// 2. Crear un nodo de texto
+var contenido = document.createTextNode("Sistemas DOM");
+// 3. Añadir el noto de texto al elemento
+elemento.appendChild(contenido);
+// 4. Agregar atributos al elemento
+elemento.setAttribute("align", "center");
+// 5. Agregar el elemento al documento
+document.getElementById("carrera").appendChild(elemento);
+
+//-17- Agregando Nodos al DOM 
