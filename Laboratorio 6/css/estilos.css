@@ -14,11 +14,37 @@ h1
     text-shadow: 20px 10px 3px #ff8000, 
                 -20px -10px 5px lime;    
 }
+h2
+{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background: -moz-linear-gradient(DeepSkyBlue, Orange);    
+}
 body
 {
     background-color: black;   
     text-align: justify; 
     color: white;
+}
+#transi
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background: blue;
+    transition: width 5s;    
+    transition-timing-function: cubic-bezier(0,0,1,1);
+    -webkit-transition: width 3s;
+    -webkit-transition-timing-function: cubic-bezier(0,0,1,1);
+}
+#transi:hover
+{
+    width: 350px;
+}
+div
+{
+    margin-left: 5px;
 }
 div p 
 {
@@ -27,6 +53,24 @@ div p
     height: 100px;
     text-align: center;
     padding: 2px;
-    margin-right: 10px;
-    display: inline-flex;
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom: 20px;        
+}
+#sub
+{
+    color: brown;
+    width: 10px;
+}
+#btnSig
+{
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: -moz-linear-gradient(red, white);
+    position: relative;
+    left: 5%;
 }
