@@ -1,4 +1,13 @@
 
+//pedimos cuantos numeros generar
+var cantidadAle = 0;
+function cantAle()
+{
+    cantidadAle = prompt("¿CUÁNTOS NÚMEROS DESEA GENERAR?", "");
+    alert("CANTIDAD A GENERAR: " + cantidadAle);
+    return cantidadAle;
+}
+
 //nuevo ordenamiento, todo desde cero
 function nuevoBur()
 {    
@@ -21,6 +30,7 @@ function nuevoBur()
     listaauxBur = 0;     
     listaMaximo = 0;
     listaMinimo = 0;    
+    cantidadAle = 0
 
     var boton = document.getElementById("btnNew");
     boton.disabled = false;
@@ -46,11 +56,12 @@ var listaMaximo = 0;
 var listaMinimo = 0;
 var listaAle = [];
 function numAle()
-{
+{    
+    cantAle();
     var aleatorio = 0;        
     var mayor = 0, menor = 0;
     //console.log(listaAle);
-    for (i = 0; i < 20; i++) 
+    for (i = 0; i < cantidadAle; i++) 
     {
         aleatorio = Math.round(Math.random()*(99-10)+parseInt(10));
         listaAle[i] = aleatorio;               
