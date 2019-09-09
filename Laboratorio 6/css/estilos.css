@@ -27,21 +27,7 @@ body
     text-align: justify; 
     color: white;
 }
-#transi
-{
-    width: 50px;
-    height: 50px;
-    margin-left: 10px;
-    background: blue;
-    transition: width 5s;    
-    transition-timing-function: cubic-bezier(0,0,1,1);
-    -webkit-transition: width 3s;
-    -webkit-transition-timing-function: cubic-bezier(0,0,1,1);
-}
-#transi:hover
-{
-    width: 350px;
-}
+
 div
 {
     margin-left: 5px;
@@ -61,16 +47,48 @@ div p
 {
     color: brown;
     width: 10px;
+} 
+#botones
+{    
+    /* border-style: double; 
+    border-block-color: #ffffff;    */
+    overflow: hidden;    
+    width: 85%;
+    max-width: 100%;    
+    margin: 10px auto;
 }
-#btnSig
+#botones ul
 {
-    color: black;
-    padding: 10px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    background: -moz-linear-gradient(red, white);
-    position: relative;
-    left: 5%;
+    list-style-type: none;    
 }
+#botones ul button 
+{                         
+    padding: 10px 20px;
+    display: inline;
+    text-decoration: none; 
+    color: white;
+    background-color: rgb(32, 163, 32); 
+    margin-left: 10px;  
+    font-size: 17px;
+}
+#botones ul button:hover 
+{    
+    background-color: rgb(102, 235, 102);
+    color: black;     
+}
+/* 
+#transi
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background: blue;
+    transition: width 5s;    
+    transition-timing-function: cubic-bezier(0,0,1,1);
+    -webkit-transition: width 3s;
+    -webkit-transition-timing-function: cubic-bezier(0,0,1,1);
+}
+#transi:hover
+{
+    width: 350px;
+} */
