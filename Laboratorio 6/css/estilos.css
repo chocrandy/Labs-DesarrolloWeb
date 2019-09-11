@@ -19,7 +19,7 @@ h2
     color: white;
     text-align: center;
     padding: 10px;
-    background: -moz-linear-gradient(DeepSkyBlue, Orange);    
+    background: -moz-linear-gradient(black, Orange);    
 }
 body
 {
@@ -48,23 +48,30 @@ div p
     color: brown;
     width: 10px;
 } 
+/*
 #botones
 {    
-    /* border-style: double; 
-    border-block-color: #ffffff;    */
+    border-style: double; 
+    border-block-color: #ffffff;
     overflow: hidden;    
     width: 85%;
     max-width: 100%;    
     margin: 10px auto;
-}
+} */
 #botones ul
 {
     list-style-type: none;    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
 #botones ul button 
 {                         
-    padding: 10px 20px;
-    display: inline;
+    padding: auto 20px;    
     text-decoration: none; 
     color: white;
     background-color: rgb(32, 163, 32); 
@@ -73,8 +80,8 @@ div p
 }
 #botones ul button:hover 
 {    
-    background-color: rgb(102, 235, 102);
-    color: black;     
+    color: white;   
+    border: 5px solid gold;    
 }
 /* 
 #transi

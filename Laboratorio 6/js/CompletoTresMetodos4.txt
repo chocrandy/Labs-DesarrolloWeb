@@ -3,7 +3,7 @@
 var cantidadAle = 0;
 function cantAle()
 {
-    cantidadAle = prompt("Â¿CUÃNTOS NÃšMEROS DESEA GENERAR?", "");
+    cantidadAle = prompt("¿CUÁNTOS NÚMEROS DESEA GENERAR?", "");
     alert("CANTIDAD A GENERAR: " + cantidadAle);
     return cantidadAle;
 }
@@ -107,7 +107,7 @@ function listaMax()
             mayor = listaAle[index];
         }        
     }    
-    alert("NÃšMERO MÃXIMO ES: " + mayor);
+    alert("NÚMERO MÁXIMO ES: " + mayor);
 }
 
 function listaMin()
@@ -119,7 +119,7 @@ function listaMin()
             menor = listaAle[index];
         }        
     }        
-    alert("NÃšMERO MÃNIMO ES: " + menor);
+    alert("NÚMERO MÍNIMO ES: " + menor);
 }
 //Ordenamiento Burbuja Dinamico 
 var aumBur = 0;
@@ -141,7 +141,7 @@ function aumentoBur()
     var elementoh3 = document.createElement('h3');   
     // 2. Crear un nodo de texto
     var contenidoh3 = document.createTextNode("Lista No Ordenada: " + lista);
-    // 3. AÃ±adir el noto de texto al elemento
+    // 3. Añadir el noto de texto al elemento
     elementoh3.appendChild(contenidoh3);
     // 4. Agregar atributos al elemento
     //elemento.setAttribute("style", "background-color:red");
@@ -156,8 +156,8 @@ function aumentoBur()
     // 1. Crear el elemento                    
     var elementoh3 = document.createElement('h3');   
     // 2. Crear un nodo de texto
-    var contenidoh3 = document.createTextNode("Ordenamiento BurbÃºja");
-    // 3. AÃ±adir el noto de texto al elemento
+    var contenidoh3 = document.createTextNode("Ordenamiento Burbúja");
+    // 3. Añadir el noto de texto al elemento
     elementoh3.appendChild(contenidoh3);
     // 4. Agregar atributos al elemento
     //elemento.setAttribute("style", "background-color:red");
@@ -177,7 +177,7 @@ function aumentoBur()
         elementoDivP.setAttribute("id", "pa" + j + "");    
         // 2. Crear un nodo de texto
         var contenidoDivP = document.createTextNode("Bur #" + j + "");
-        // 3. AÃ±adir el noto de texto al elemento
+        // 3. Añadir el noto de texto al elemento
         elementoDivP.appendChild(contenidoDivP);
         // 4. Agregar atributos al elemento
         //elemento.setAttribute("style", "background-color:red");
@@ -211,8 +211,8 @@ function aumentoBur()
     // 1. Crear el elemento                    
     var elementoh3 = document.createElement('h3');
     // 2. Crear un nodo de texto
-    var contenidoh3 = document.createTextNode("Lista Ordenada con BurbÃºja: " + lista);
-    // 3. AÃ±adir el noto de texto al elemento
+    var contenidoh3 = document.createTextNode("Lista Ordenada con Burbúja: " + lista);
+    // 3. Añadir el noto de texto al elemento
     elementoh3.appendChild(contenidoh3);
     // 4. Agregar atributos al elemento
     //elemento.setAttribute("style", "background-color:red");
@@ -289,7 +289,7 @@ function ordenQS()
     var elementoh3 = document.createElement('h3');   
     // 2. Crear un nodo de texto
     var contenidoh3 = document.createTextNode("Ordenamiento QuickSort");
-    // 3. AÃ±adir el noto de texto al elemento
+    // 3. Añadir el noto de texto al elemento
     elementoh3.appendChild(contenidoh3);
     // 4. Agregar atributos al elemento    
     elementoh3.style.backgroundColor = "orange";
@@ -308,7 +308,7 @@ function ordenQS()
         elementoDivP.setAttribute("id", "qs" + j + "");    
         // 2. Crear un nodo de texto
         var contenidoDivP = document.createTextNode("QS #" + j + "");
-        // 3. AÃ±adir el noto de texto al elemento
+        // 3. Añadir el noto de texto al elemento
         elementoDivP.appendChild(contenidoDivP);
         // 4. Agregar atributos al elemento        
         elementoDivP.style.backgroundColor = "orange";
@@ -374,7 +374,7 @@ function ordenQS()
     var elementoh3 = document.createElement('h3');
     // 2. Crear un nodo de texto
     var contenidoh3 = document.createTextNode("Lista Ordenada con QuickSort: " + arreglo);
-    // 3. AÃ±adir el noto de texto al elemento
+    // 3. Añadir el noto de texto al elemento
     elementoh3.appendChild(contenidoh3);
     // 4. Agregar atributos al elemento    
     elementoh3.style.backgroundColor = "orange";
@@ -393,7 +393,7 @@ function ordenQS()
 function ordenINS()
 {    
     var arreglo = listaAle;    
-    //ordenamiento InserciÃ³n
+    //ordenamiento Inserción
     const insertionSort = arreglo => 
     {
         const l = arreglo.length;
@@ -420,7 +420,7 @@ function ordenINS()
     var elementoh3 = document.createElement('h3');   
     // 2. Crear un nodo de texto
     var contenidoh3 = document.createTextNode("Ordenamiento Insertion Sort");
-    // 3. AÃ±adir el noto de texto al elemento
+    // 3. Añadir el noto de texto al elemento
     elementoh3.appendChild(contenidoh3);
     // 4. Agregar atributos al elemento    
     elementoh3.style.backgroundColor = "purple";
@@ -439,7 +439,7 @@ function ordenINS()
         elementoDivP.setAttribute("id", "ins" + j + "");    
         // 2. Crear un nodo de texto
         var contenidoDivP = document.createTextNode("INS #" + j + "");
-        // 3. AÃ±adir el noto de texto al elemento
+        // 3. Añadir el noto de texto al elemento
         elementoDivP.appendChild(contenidoDivP);
         // 4. Agregar atributos al elemento        
         elementoDivP.style.backgroundColor = "purple";
@@ -464,7 +464,7 @@ function ordenINS()
     var elementoh3 = document.createElement('h3');
     // 2. Crear un nodo de texto
     var contenidoh3 = document.createTextNode("Lista Ordenada con Insertion Sort: " + arreglo);
-    // 3. AÃ±adir el noto de texto al elemento
+    // 3. Añadir el noto de texto al elemento
     elementoh3.appendChild(contenidoh3);
     // 4. Agregar atributos al elemento    
     elementoh3.style.backgroundColor = "purple";
