@@ -385,6 +385,10 @@ function ordenQS()
     // 5. Agregar el elemento al documento
     document.getElementById("pilas").appendChild(elementoh3);
 
+
+    document.getElementById("btnSig").disabled = false;
+    document.getElementById("btnSig").style.background = "green";
+
     document.getElementById("btnQS").disabled = true;
     document.getElementById("btnQS").style.background = "red";
 }
