@@ -27,75 +27,40 @@ body
     text-align: justify; 
     color: white;
 }
-
-div
+#calc
 {
-    margin-left: 5px;
+    background-color: rgb(49, 10, 85);
+    width: 50%;
+    height: auto;
+    margin-left: 10%;
 }
-div p 
+#calc p
 {
-    background-color: #ff8000;
-    width: auto;
-    height: 100px;
+    background-color: rgb(19, 19, 141);
+    align-content: center;
     text-align: center;
-    padding: 2px;
-    margin-left: 10px;
-    display: inline-block;
-    margin-bottom: 20px;        
+    padding: 10px;
+    font-size: 25px;
 }
-#sub
+#calc table
 {
-    color: brown;
-    width: 10px;
-} 
-/*
-#botones
-{    
-    border-style: double; 
-    border-block-color: #ffffff;
-    overflow: hidden;    
-    width: 85%;
-    max-width: 100%;    
-    margin: 10px auto;
-} */
-#botones ul
+    /* background-color: tomato; */
+    width: 100%;
+}
+#calc table tr
 {
-    list-style-type: none;    
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
+    /* background-color: aqua; **/
 }
-#botones ul button 
-{                         
-    padding: auto 20px;    
-    text-decoration: none; 
-    color: white;
-    background-color: rgb(32, 163, 32); 
-    margin-left: 10px;  
-    font-size: 17px;
-}
-#botones ul button:hover 
-{    
-    color: white;   
-    border: 5px solid gold;    
-}
-/* 
-#transi
+#calc table tr td
 {
-    width: 50px;
+    /* background-color: #ff8000; */
+    text-align: center;
+}
+#calc table tr td button
+{
+    /* background-color: yellow;  */
+    width: 70px;
     height: 50px;
-    margin-left: 10px;
-    background: blue;
-    transition: width 5s;    
-    transition-timing-function: cubic-bezier(0,0,1,1);
-    -webkit-transition: width 3s;
-    -webkit-transition-timing-function: cubic-bezier(0,0,1,1);
+    color: black;
+    font-size: 25px;
 }
-#transi:hover
-{
-    width: 350px;
-} */

@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Calculadora - PHP</title>
 </head>
-<body>
-    <h1>Introducción a PHP - Calculadora</h1>
 
-    
+<body>
+    <h1>Introducción a PHP - Calculadora</h1> <br><br>
+    <div id="calc">
+        <h2>Calculadora</h2>
+        <p id="res">Resultado</p>
+        <table>
+            <tr>
+                <td> <button id="on">ON</button> </td>
+                <td> <button id="ce">CE</button> </td>
+                <td> <button id="raiz">Raiz</button> </td>
+                <td> <button id=""></button> </td>
+            </tr>
+            <tr>
+                <td> <button id="7">7</button> </td>
+                <td> <button id="8">8</button> </td>
+                <td> <button id="9">9</button> </td>
+                <td> <button id="divi">/</button> </td>
+            </tr>
+            <tr>
+                <td> <button id="4">4</button> </td>
+                <td> <button id="5">5</button> </td>
+                <td> <button id="6">6</button> </td>
+                <td> <button id="por">*</button> </td>
+            </tr>
+            <tr>
+                <td> <button id="1" onclick="mostrar()">1</button> </td>
+                <td> <button id="2">2</button> </td>
+                <td> <button id="3">3</button> </td>
+                <td> <button id="resta">-</button> </td>
+            </tr>
+            <tr>
+                <td> <button id="0">0</button> </td>
+                <td> <button id="dot">.</button> </td>
+                <td> <button id="igual">=</button> </td>
+                <td> <button id="suma">+</button> </td>
+            </tr>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
