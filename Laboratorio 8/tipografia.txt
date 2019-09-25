@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <title>Tipografía y Textos</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 class="text-muted">Este es un Header H1 <small>Texto Secundario</small></h1>
+        <h2 class="text-primary">Este es un Header H2 <small>Texto Secundario</small></h2>
+        <h3 class="text-success">Este es un Header H3 <small>Texto Secundario</small></h3>
+        <h4 class="text-info">Este es un Header H4 <small>Texto Secundario</small></h4>
+        <h5 class="text-warning">Este es un Header H5 <small>Texto Secundario</small></h5>
+        <h6 class="text-danger">Este es un Header H6 <small>Texto Secundario</small></h6>
+        <br><br>
+        <h1 class="bg-primary">Este es un Header H1 <small>Texto Secundario</small></h1>
+        <h2 class="bg-success">Este es un Header H2 <small>Texto Secundario</small></h2>
+        <h3 class="bg-info">Este es un Header H3 <small>Texto Secundario</small></h3>
+        <h4 class="bg-warning">Este es un Header H4 <small>Texto Secundario</small></h4>
+        <h5 class="bg-danger">Este es un Header H5 <small>Texto Secundario</small></h5>
+        <h6 class="bg-primary">Este es un Header H6 <small>Texto Secundario</small></h6>
+        <br><br>
+        <div class="row">
+            <div class="col-md-4 text-left">
+                <p class="lead text-lowercase">Lorem Ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                    molestias aliquam.</p>
+                <p class=""><mark>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias
+                        aliquam.</mark></p>
+                <p class=""><del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias
+                        aliquam.</del></p>
+                <p class=""><s>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias aliquam.</s>
+                </p>
+                <p class=""><ins>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias
+                        aliquam.</ins></p>
+                <p class=""><u>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias aliquam.</u>
+                </p>
+            </div>
+            <div class="col-md-4 text-justify">
+                <p class="small text-uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                    molestias aliquam.</p>
+                <p class=""><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias
+                        aliquam.</strong></p>
+                <p class=""><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias aliquam.</b>
+                </p>
+                <p class=""><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias
+                        aliquam.</em></p>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias aliquam.</p>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias aliquam.</p>
+            </div>
+            <div class="col-md-4 text-right">
+                <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias
+                    aliquam.</p>
+                <p class=""><code>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias aliquam.</code></p>
+                <p class=""><pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias aliquam.</pre></p>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias aliquam.</p>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias aliquam.</p>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias aliquam.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <blockquote class="blockquote-reverse">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eum? Expedita natus nihil dolor, culpa
+                    est ducimus debitis. Nesciunt tempore ducimus illum quisquam! Temporibus veritatis inventore
+                    deleniti voluptates consequatur distinctio.</p>
+                    <footer>Randy Choc <cite title="Fuente"> en Fuente</cite> </footer>
+            </blockquote>
+        </div>
+    </div>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
