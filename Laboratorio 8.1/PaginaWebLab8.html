@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <title>Diseño-Formularios</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="badge badge-primary text-wrap" style="width: auto; height: 35px; font-size: 30px;"> Diferentes tipos
+            de Diseño - Formularios <small id="">Laboratorio 8.1</small></h1>
+        <br><br>
+    </div>
+
+    <!--Contenedor para el 1er Form compartido por el Ingeniero-->
+    <div class="container bg-danger">
+        <h2 class="text-danger">Primer Formulario a Editar</h2>
+        <form action="" class="">
+            <label for="nombre">Nombre:</label>
+            <input class="form-control" id="nombre" type="text" placeholder="Nombre y apellido">
+            <br>
+            <label class="" for="option">Elige una opción:</label>
+            <select class="form-control" name="" id="option">
+                <option value="">Opción # 1</option>
+                <option value="">Opción # 2</option>
+                <option value="">Opción # 3</option>
+                <option value="">Opción # 4</option>
+                <option value="">Opción # 5</option>
+            </select>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea class="form-control" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+            <br>
+            <label for="archivo">Archivo:</label>
+            <input class="" type="file" id="archivo">
+            <p class="">Maximo 50MB</p>
+            <button class="">Enviar</button>
+            <br><br>
+        </form>
+    </div>
+
+    <br><br><br><br>
+    <!--Contenedor para el 2do Form compartido por el Ingeniero-->
+    <div class="container bg-info">
+        <h2 class="text-info">Segundo Formulario a Editar</h2>
+        <form action="" class="">
+            <div class="">
+                <label class="" for="nombre">Nombre:</label>
+                <input class="form-control" id="nombre" type="text" placeholder="Nombre y Apellido">
+            </div>
+            <br>
+            <div class="">
+                <div class="">
+                    <label class="" for="correo">Correo:</label>
+                    <input class="form-control" id="correo" type="text" placeholder="example@correo.com">
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="" id=""> Recuerdame
+                </label>
+            </div>
+        </form>
+    </div>
+
+
+    <br><br><br><br>
+    <!--Contenedor para el 3er Form compartido por el Ingeniero-->
+    <div class="container bg-warning">
+        <h2 class="text-warning">Tercer Formulario a Editar</h2>
+        <div class="form-group">
+            <label>Label basica</label>
+            <input type="text" class="form-control" placeholder="Input Basico">
+        </div>
+
+        <textarea name="" id="" class="form-control" placeholder="textarea"></textarea>
+
+        <div class="checkbox">
+            <input type="checkbox" name="" id=""> Checkbox # 1
+            <input type="checkbox" name="" id=""> Checkbox # 2
+            <input type="checkbox" name="" id=""> Checkbox # 3
+        </div>
+
+        <input type="radio" name="opcion" id="radio1"><label for="radio1">Radio Button # 1</label>
+        <input type="radio" name="opcion" id="radio1"><label for="radio1">Radio Button # 2</label>
+        <input type="radio" name="opcion" id="radio1"><label for="radio1">Radio Button # 3</label>
+
+        <button type="submit">Enviar</button>
+    </div>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
