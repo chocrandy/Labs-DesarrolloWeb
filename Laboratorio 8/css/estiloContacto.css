@@ -1,0 +1,39 @@
+#encabezado
+{
+    text-align: center;        
+}
+#encabezado h2
+{
+    color: black;
+    font-size: 35px;
+    font-family: "Tahoma";        
+}
+#encabezado h3
+{
+    font-style: oblique;
+    font-size: 20px;
+}
+#formulario
+{    
+    color: black;    
+    border-style: dashed;
+    border-color: #d42e2e;
+}
+#formulario h2, options
+{
+    color: black;
+}
+#contactos h3
+{
+    background: #d42e2e;
+    color: #ffffff;
+    padding: 5px;    
+}
+#pie
+{    
+    color: black;
+    padding: 20px;    
+    text-align: center;
+    font-family: "Tahoma";        
+    font-style: oblique;    
+}

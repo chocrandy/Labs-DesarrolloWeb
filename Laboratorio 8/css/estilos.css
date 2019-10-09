@@ -1,0 +1,127 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Segoe UI'; 
+}
+body
+{
+    background-color: #ffffff;   
+    text-align: justify; 
+    color: #000000;
+}
+div
+{
+    padding-bottom: 10px;
+}
+.datosPrincipal
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#datosPrincipal
+{
+    background-color: #d42e2e;    
+    color: #ffffff;
+}
+#foto
+{
+    max-width: 100%;
+    width: 250px;
+    height: auto;     
+    padding: 10px;
+    padding-right: 30px;       
+}
+#parrafo
+{    
+    padding: 50px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+}
+#habilidades 
+{
+    display: flex;
+    text-align: center;
+    align-items: center;    
+}
+#habilidades h4
+{
+    background: #181818a4;
+    color: #ffffff;    
+    max-width: 100%;
+    width: auto;
+    padding: 10px 20px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+}
+
+#habilidades h4 small
+{    
+    font-size: 20px;
+    color: #ffffff;
+}
+#habilidades h4:hover
+{    
+    background: #d42e2e;
+    font-size: 30px;
+}
+#educacion
+{
+    background: radial-gradient(#d42e2e 70%, #ffffff 20%);
+    color: #000000;
+    margin: 10px;
+    padding: 20px;  
+    margin-bottom: 25px;      
+    text-align: center;
+}
+#educacion:hover
+{
+    color: #ffffff;
+}
+#footer
+{
+    background: #d42e2e;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    color: #ffffff;    
+}
+.social 
+{
+    position: fixed;
+    left: 0;
+    top: 150px;
+    z-index: 2000;
+}
+.social ul 
+{
+    list-style: none;
+}
+.social ul li a 
+{
+    display: inline-block;
+    color: #000000;
+    background: #ffffff;
+    padding: 5px 10px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.social ul li a:hover
+{
+    padding: 5px 25px;
+    background: #ffffff;
+}
+#btnEnviar
+{
+    background: #d42e2e;
+}
